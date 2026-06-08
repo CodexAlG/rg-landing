@@ -90,7 +90,7 @@ function App() {
         <div className="max-w-5xl mx-auto flex flex-col md:flex-row justify-between items-center gap-4 text-center md:text-left">
           <span className="text-white font-bold">RG Luces y Sonido</span>
           <span className="text-white/40 text-sm">
-            © 2024 RG Luces y Sonido. Hermosillo, Sonora.
+            © 2026 RG Luces y Sonido. Hermosillo, Sonora.
           </span>
         </div>
       </footer>
