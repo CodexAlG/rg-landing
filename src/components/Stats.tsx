@@ -15,9 +15,9 @@ export default function Stats() {
 
         {/* Stat 2 */}
         <div className="flex flex-col items-center text-center">
-          <span className="text-[#AAFF00] text-6xl font-black">10+</span>
+          <span className="text-[#AAFF00] text-6xl font-black">TRENDS</span>
           <span className="text-white/50 text-sm tracking-widest uppercase mt-2">
-            Años de Experiencia
+            Lo último en tendencias
           </span>
         </div>
 

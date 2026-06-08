@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react'
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import Stats from './components/Stats'
+import Services from './components/Services'
 import FeaturedPackages from './components/FeaturedPackages'
 import Testimonials from './components/Testimonials'
 import StickyFooter from './components/StickyFooter'
@@ -36,6 +37,19 @@ function App() {
           window.history.pushState({}, '', '/');
           setCurrentPath('/');
           window.scrollTo({ top: 0, behavior: 'smooth' });
+        } else if (text === 'Servicios' || href === '#services') {
+          e.preventDefault();
+          if (window.location.pathname !== '/') {
+            window.history.pushState({}, '', '/');
+            setCurrentPath('/');
+            setTimeout(() => {
+              const el = document.getElementById('services');
+              el?.scrollIntoView({ behavior: 'smooth' });
+            }, 100);
+          } else {
+            const el = document.getElementById('services');
+            el?.scrollIntoView({ behavior: 'smooth' });
+          }
         } else if (text === 'Testimonios' || href === '#testimonials') {
           e.preventDefault();
           if (window.location.pathname !== '/') {
@@ -66,6 +80,7 @@ function App() {
         <>
           <Hero />
           <Stats />
+          <Services />
           <FeaturedPackages />
           <Testimonials />
         </>
