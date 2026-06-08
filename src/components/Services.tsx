@@ -38,7 +38,7 @@ export default function Services() {
           {services.map((service, idx) => (
             <div
               key={idx}
-              className="bg-[#1A1A2E] rounded-2xl p-6 border border-white/5 hover:border-[#AAFF00]/30 hover:-translate-y-2 transition-all duration-300 flex flex-col items-center text-center group"
+              className="bg-[#121214] rounded-2xl p-6 border border-white/5 hover:border-[#AAFF00]/30 hover:-translate-y-2 transition-all duration-300 flex flex-col items-center text-center group"
             >
               {/* Icon Badge */}
               <div className="w-16 h-16 rounded-full bg-[#0A0A0F] flex items-center justify-center text-3xl mb-6 shadow-md border border-white/10 group-hover:border-[#AAFF00]/50 transition-colors duration-300 select-none">

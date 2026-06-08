@@ -6,43 +6,43 @@ export default function Hero() {
         <div className="flex h-full animate-marquee w-fit">
           {/* Track 1 */}
           <div className="flex gap-4 h-full pr-4">
-            <div className="w-64 h-full bg-[#1A1A2E] flex items-center justify-center text-white/20 font-medium">
+            <div className="w-64 h-full bg-[#121214] flex items-center justify-center text-white/20 font-medium">
               Foto 1
             </div>
-            <div className="w-64 h-full bg-[#1A1A2E] flex items-center justify-center text-white/20 font-medium">
+            <div className="w-64 h-full bg-[#121214] flex items-center justify-center text-white/20 font-medium">
               Foto 2
             </div>
-            <div className="w-64 h-full bg-[#1A1A2E] flex items-center justify-center text-white/20 font-medium">
+            <div className="w-64 h-full bg-[#121214] flex items-center justify-center text-white/20 font-medium">
               Foto 3
             </div>
-            <div className="w-64 h-full bg-[#1A1A2E] flex items-center justify-center text-white/20 font-medium">
+            <div className="w-64 h-full bg-[#121214] flex items-center justify-center text-white/20 font-medium">
               Foto 4
             </div>
-            <div className="w-64 h-full bg-[#1A1A2E] flex items-center justify-center text-white/20 font-medium">
+            <div className="w-64 h-full bg-[#121214] flex items-center justify-center text-white/20 font-medium">
               Foto 5
             </div>
-            <div className="w-64 h-full bg-[#1A1A2E] flex items-center justify-center text-white/20 font-medium">
+            <div className="w-64 h-full bg-[#121214] flex items-center justify-center text-white/20 font-medium">
               Foto 6
             </div>
           </div>
           {/* Track 2 (Duplicate) */}
           <div className="flex gap-4 h-full pr-4">
-            <div className="w-64 h-full bg-[#1A1A2E] flex items-center justify-center text-white/20 font-medium">
+            <div className="w-64 h-full bg-[#121214] flex items-center justify-center text-white/20 font-medium">
               Foto 1
             </div>
-            <div className="w-64 h-full bg-[#1A1A2E] flex items-center justify-center text-white/20 font-medium">
+            <div className="w-64 h-full bg-[#121214] flex items-center justify-center text-white/20 font-medium">
               Foto 2
             </div>
-            <div className="w-64 h-full bg-[#1A1A2E] flex items-center justify-center text-white/20 font-medium">
+            <div className="w-64 h-full bg-[#121214] flex items-center justify-center text-white/20 font-medium">
               Foto 3
             </div>
-            <div className="w-64 h-full bg-[#1A1A2E] flex items-center justify-center text-white/20 font-medium">
+            <div className="w-64 h-full bg-[#121214] flex items-center justify-center text-white/20 font-medium">
               Foto 4
             </div>
-            <div className="w-64 h-full bg-[#1A1A2E] flex items-center justify-center text-white/20 font-medium">
+            <div className="w-64 h-full bg-[#121214] flex items-center justify-center text-white/20 font-medium">
               Foto 5
             </div>
-            <div className="w-64 h-full bg-[#1A1A2E] flex items-center justify-center text-white/20 font-medium">
+            <div className="w-64 h-full bg-[#121214] flex items-center justify-center text-white/20 font-medium">
               Foto 6
             </div>
           </div>

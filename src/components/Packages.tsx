@@ -28,7 +28,7 @@ export default function Packages() {
     return (
       <div
         key={pkg.id}
-        className="bg-[#1A1A2E] rounded-2xl overflow-hidden flex flex-col justify-between"
+        className="bg-[#121214] rounded-2xl overflow-hidden flex flex-col justify-between"
       >
         <div>
           {/* Top Image Area */}

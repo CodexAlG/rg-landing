@@ -32,7 +32,7 @@ export default function Testimonials() {
           {testimonials.map((t, idx) => (
             <div
               key={idx}
-              className="bg-[#1A1A2E] rounded-2xl p-6 border-l-2 border-[#AAFF00] flex flex-col justify-between"
+              className="bg-[#121214] rounded-2xl p-6 border-l-2 border-[#AAFF00] flex flex-col justify-between"
             >
               <div>
                 {/* Star Rating */}

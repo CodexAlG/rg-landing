@@ -34,7 +34,7 @@ export default function Catalog() {
 
         {/* Category Tabs */}
         <div className="flex justify-center mb-12">
-          <div className="bg-[#1A1A2E]/50 border border-white/10 rounded-full p-1.5 flex flex-wrap gap-2 justify-center backdrop-blur-md">
+          <div className="bg-[#121214]/50 border border-white/10 rounded-full p-1.5 flex flex-wrap gap-2 justify-center backdrop-blur-md">
             <button
               onClick={() => setActiveCategory('all')}
               className={`px-6 py-2 rounded-full text-xs md:text-sm font-bold tracking-wider transition-all duration-300 cursor-pointer ${
@@ -79,7 +79,7 @@ export default function Catalog() {
             return (
               <div
                 key={pkg.id}
-                className="bg-[#1A1A2E] rounded-2xl overflow-hidden flex flex-col md:flex-row border border-white/5 hover:border-white/10 transition-colors duration-200"
+                className="bg-[#121214] rounded-2xl overflow-hidden flex flex-col md:flex-row border border-white/5 hover:border-white/10 transition-colors duration-200"
               >
                 {/* Left: Image Container */}
                 <div className="relative w-full md:w-80 h-48 md:h-auto min-h-[16rem] bg-[#0A0A0F] flex flex-shrink-0 items-center justify-center select-none">
